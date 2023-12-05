@@ -21,7 +21,7 @@ import static org.springframework.http.ResponseEntity.ok;
 @RequestMapping("/v1")
 public class CountriesInfoController {
 
-    public static final Logger log = LoggerFactory.getLogger(CountriesInfoController.class);
+    private static final Logger log = LoggerFactory.getLogger(CountriesInfoController.class);
     private static final String REGION_ASIA = "Asia";
 
     private final CountriesInfoService service;
